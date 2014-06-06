@@ -1,6 +1,8 @@
 = ege_parser
 
-See [examples](examples/2.rb)
+See {example}[https://github.com/manyrus/ege_gem/blob/master/examples/2.rb]
+
+
 
 == Contributing to ege_parser
  
