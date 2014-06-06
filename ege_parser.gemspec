@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
   s.authors = ["manyrus"]
   s.date = "2014-06-06"
-  s.description = "TODO: longer description of your gem"
+  s.description = "Lib for parsing EGE results"
   s.email = "manyrus@gmail.com"
   s.extra_rdoc_files = [
     "LICENSE.txt",
@@ -27,6 +27,7 @@ Gem::Specification.new do |s|
     "README.rdoc",
     "Rakefile",
     "VERSION",
+    "ege_parser.gemspec",
     "examples/2.rb",
     "lib/ege_parser.rb",
     "lib/error.rb",
@@ -41,7 +42,7 @@ Gem::Specification.new do |s|
   s.homepage = "http://github.com/manyrus/ege_parser"
   s.licenses = ["MIT"]
   s.rubygems_version = "2.2.2"
-  s.summary = "TODO: one-line summary of your gem"
+  s.summary = "EGE gem praser"
 
   if s.respond_to? :specification_version then
     s.specification_version = 4
