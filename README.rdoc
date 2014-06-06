@@ -2,8 +2,11 @@
 
 See {example}[https://github.com/manyrus/ege_gem/blob/master/examples/2.rb]
 
-
-
+== Installing
+Simply add to your Gemfile this code:
+  gem 'ege_parser'
+Or exec from console:
+  $ gem install ege_parser
 == Contributing to ege_parser
  
 * Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet.
