@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "ege_parser"
   gem.homepage = "http://github.com/manyrus/ege_parser"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{EGE gem praser}
+  gem.description = %Q{Lib for parsing EGE results}
   gem.email = "manyrus@gmail.com"
   gem.authors = ["manyrus"]
   # dependencies defined in Gemfile
