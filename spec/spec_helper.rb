@@ -1,4 +1,5 @@
 require 'simplecov'
+require 'webmock/rspec'
 
 module SimpleCov::Configuration
   def clean_filters
@@ -8,7 +9,7 @@ end
 
 SimpleCov.configure do
   clean_filters
-  load_adapter 'test_frameworks'
+  load_profile 'test_frameworks'
 end
 
 ENV["COVERAGE"] && SimpleCov.start do
@@ -24,6 +25,6 @@ require 'ege_parser'
 # in ./support/ and its subdirectories.
 Dir["#{File.dirname(__FILE__)}/support/**/*.rb"].each {|f| require f}
 
-RSpec.configure do |config|
-
+RSpec.configure do |c|
+	c.treat_symbols_as_metadata_keys_with_true_values = true
 end
