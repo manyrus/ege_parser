@@ -1,8 +1,6 @@
 require 'simplecov'
 require 'webmock/rspec'
-require 'coveralls'
 
-Coveralls.wear!
 module SimpleCov::Configuration
   def clean_filters
     @filters = []
