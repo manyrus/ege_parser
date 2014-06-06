@@ -1,4 +1,5 @@
-require_relative '../lib/ege_parser.rb'
+require 'ege_parser'
+
 pupil = EgeParser::Pupil.new
 
 pupil.name = 'Никитос'

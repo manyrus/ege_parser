@@ -1,6 +1,6 @@
 = ege_parser
 
-Description goes here.
+See [examples](examples/2.rb)
 
 == Contributing to ege_parser
  
