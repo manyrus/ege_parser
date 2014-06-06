@@ -1,4 +1,4 @@
-= ege_parser {<img src="https://coveralls.io/repos/manyrus/ege_gem/badge.png" alt="Coverage Status" />}[https://coveralls.io/r/manyrus/ege_gem]
+= ege_parser {<img src="https://coveralls.io/repos/manyrus/ege_gem/badge.png" alt="Coverage Status" />}[https://coveralls.io/r/manyrus/ege_gem] {<img src="https://travis-ci.org/manyrus/ege_gem.svg?branch=master" alt="Build Status" />}[https://travis-ci.org/manyrus/ege_gem]
 
 See {example}[https://github.com/manyrus/ege_gem/blob/master/examples/2.rb]
 
